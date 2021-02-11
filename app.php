@@ -22,13 +22,3 @@ $age = 25; // yaş (sene)
  * 
  * Ekrana 1326.5 yazması gerekiyor.
  */
-
- if($sex =="male"){
-     print(10*$weight + 6.25*$height - 5*$age + 5);
-
- } elseif($sex =="female"){
-    print(10*$weight + 6.25*$height - 5*$age -161);
-     
- } else{
-     print("Wrong sex!");
- }
